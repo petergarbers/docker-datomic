@@ -1,8 +1,8 @@
 FROM pointslope/clojure:lein-2.5.0
 
-MAINTAINER Christian Romney "cromney@pointslope.com"
+MAINTAINER Peter Garbers "peter@garbers.me"
 
-ENV DATOMIC_VERSION 0.9.5130
+ENV DATOMIC_VERSION 0.9.5327
 ENV DATOMIC_HOME /opt/datomic-pro-$DATOMIC_VERSION
 ENV DATOMIC_DATA $DATOMIC_HOME/data
 
