@@ -1,4 +1,4 @@
-DOCKER_IMAGE=pointslope/datomic-pro-starter
+DOCKER_IMAGE=atyz/datomic-pro-starter
 DOCKER_TAG?=$(shell ./datomic-version)
 
 .PHONY: all clean info
