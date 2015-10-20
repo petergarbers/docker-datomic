@@ -21,7 +21,7 @@ No other configuration is necessary. Simply **docker build** and **docker run** 
     
 ## Example Dockerfile
 
-    FROM atyz/datomic-pro-starter:0.9.5327
+    FROM atyz/datomic-pro-starter:0.9.5302
     MAINTAINER Peter Garbers "peter@garbers.me"
     CMD ["config/dev-transactor.properties"]
 
