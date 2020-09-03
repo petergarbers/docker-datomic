@@ -2,9 +2,11 @@ FROM clojure
 
 MAINTAINER Peter Garbers "peter@garbers.me"
 
-ENV DATOMIC_VERSION 0.9.5561.54
+ENV DATOMIC_VERSION 1.0.6202
 ENV DATOMIC_HOME /opt/datomic-pro-$DATOMIC_VERSION
 ENV DATOMIC_DATA $DATOMIC_HOME/data
+
+RUN apt-get update && apt-get install -y curl unzip
 
 # Datomic Pro Starter as easy as 1-2-3
 # 1. Create a .credentials file containing user:pass
